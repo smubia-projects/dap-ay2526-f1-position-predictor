@@ -10,6 +10,7 @@ RUN pip install --no-cache-dir -r requirements_space.txt
 
 COPY main.py .
 COPY rate_limit.py .
+COPY rate_limit_engine.py .
 
 RUN useradd -m -u 1000 user && chown -R user:user /app
 

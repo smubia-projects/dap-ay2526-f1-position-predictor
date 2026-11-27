@@ -7,3 +7,4 @@ scikit-learn
 xgboost 
 huggingface_hub 
 httpx
+upstash-redis>=1.4.0,<2.0
